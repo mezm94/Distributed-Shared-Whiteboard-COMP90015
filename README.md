@@ -26,17 +26,17 @@ This project achieves a **shared whiteboard** allows **multiple users to draw si
    
    该程序支持**直线，椭圆，矩形和文本输入**。用户可以在白板内的**任何位置**绘制它们。
 
-4. The first user to join will become an *administrator*. A notification is delivered to the administrator if any peer wants to join, then the administrator can decide whether **approves it or not**. If the administrator approves, then the user can continue to use, if not, then the client will be closed.
+4. The first user to join will become an **_administrator_**. A notification is delivered to the administrator if any peer wants to join, then the administrator can decide whether **approves it or not**. If the administrator approves, then the user can continue to use, if not, then the client will be closed.
   
-   第一个加入的用户会成为*管理员*。 如果任何新用户想要加入，则将加入申请发送给管理员，然后管理员可以决定**是否同意该加入申请**。 如果管理员批准，则用户可以继续使用，否则，该用户的客户端将被关闭。
+   第一个加入的用户会成为**_管理员_**。 如果任何新用户想要加入，则将加入申请发送给管理员，然后管理员可以决定**是否同意该加入申请**。 如果管理员批准，则用户可以继续使用，否则，该用户的客户端将被关闭。
 
-5. An *online peer list* is maintained and displayed for every client.
+5. An **_online peer list_** is maintained and displayed for every client.
    
-   每个客户端维护并显示当前最新的*在线用户列表*。
+   每个客户端维护并显示当前最新的**_在线用户列表_**。
 
-6. Online peers can choose to **leave** whenever they want. If the peer leaves, the *online peer list* of every client will be updated.
+6. Online peers can choose to **leave** whenever they want. If the peer leaves, the **_online peer list_** of every client will be updated.
    
-   在线用户可以选择随时**退出**。 如果在线用户退出，则将更新每个客户端的*在线用户列表*。
+   在线用户可以选择随时**退出**。 如果在线用户退出，则将更新每个客户端的**_在线用户列表_**。
 
 7. When the administrator quits, the application will be **terminated**. All the peers will get a message notifying them.
    
@@ -58,9 +58,9 @@ This project achieves a **shared whiteboard** allows **multiple users to draw si
     - 用户可以选择喜欢的位置保存图片
     - 关闭所有白板 (只有第一个用户即管理员可以操作)
 
-9.  The first user (administrator) is able to kick out a certain peer then the peer will get the notification and the online user list will be updated.
+9.  The first user (administrator) is able to **kick out** a certain peer then the peer will get the notification and the **_online user list_** will be updated.
 
-    第一个用户（管理员）能够踢出某个在线用户，然后该在线用户将收到通知并被踢出(该用户的客户端将被强制关闭)，并且将更新在线用户列表。
+    第一个用户（管理员）能够**踢出**某个在线用户，然后该在线用户将收到通知并被踢出(该用户的客户端将被强制关闭)，并且将更新**_在线用户列表_**。
 
 ## Screenshots (程序截图)
 
