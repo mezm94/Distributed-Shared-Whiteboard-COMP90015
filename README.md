@@ -1,38 +1,47 @@
 # Distributed-Shared-Whiteboard-COMP90015_2020_SM1
 
-This project is based on University of Melbourne Distributed Systems (COMP90015_2020_SM1) - Assignment 2 
-Thanks a lot for the guidance of the teaching team.
+This project is based on **_University of Melbourne Distributed Systems (COMP90015_2020_SM1) - Assignment 2_** 
 
-该项目是基于University of Melbourne大学Distributed Systems (COMP90015_2020_SM1) - Assignment 2实现的, 非常感谢教学团队的指导
+Thanks a lot for the guidance of the teaching team!
+
+该项目是基于 **_University of Melbourne Distributed Systems (COMP90015_2020_SM1) - Assignment 2_** 实现的, 非常感谢教学团队的指导！
 * **Course:** [COMP90015 Distributed Systems](https://handbook.unimelb.edu.au/subjects/comp90015) @ Semester 1, 2020
 * **Instructor:** Dr. Rajkumar Buyya
 
 ## Features (功能简介)
 
-This project achieves a shared whiteboard allows multiple users to draw simultaneously on a canvas. The major features are showing below:
+This project achieves a **shared whiteboard** allows **multiple users to draw simultaneously on a canvas**. The major features are showing below:
 
-该项目实现了共享白板，允许多个用户在画布上同时绘制。 主要功能如下所示：
-1. Multiple users can draw on a shared interactive canvas.
+该项目实现了**共享白板**，允许**多个用户在画布上同时绘制**。 主要功能如下所示：
+
+1. Multiple users can draw on a **shared interactive canvas**.
    
-   多个用户可以在共享的交互式画布上绘画。
-2. The single whiteboard is shared between all the clients, that is, all the clients can see the same image of whiteboard and they are able to work on a drawing together in real time.
+   多个用户可以在**共享的交互式画布**上绘画。
+
+2. **The single whiteboard is shared between all the clients**, that is, all the clients can see the same image of whiteboard and they are able to work on a drawing together in real time.
    
-   单个白板在所有客户端之间共享，也就是说，所有客户端都可以看到相同的白板图像，并且他们能够实时一起绘制图形。
-3. The program supports for straight line, oval, rectangle, and text inputting.The users can draw them anywhere inside the whiteboard.
+   **单个白板在所有客户端之间共享**，也就是说，所有客户端都可以看到相同的白板图像，并且他们能够实时一起绘制图形。
+
+3. The program supports for **straight line, oval, rectangle, and text inputting**.The users can draw them **anywhere** inside the whiteboard.
    
-   该程序支持直线，椭圆，矩形和文本输入。用户可以在白板内的任何位置绘制它们。
-4. The first user to join will become an administrator. A notification is delivered to the administrator if any peer wants to join, then the administrator can decide whether approves it or not. If the administrator approves, then the user can continue to use, if not, then the client will be closed.
+   该程序支持**直线，椭圆，矩形和文本输入**。用户可以在白板内的**任何位置**绘制它们。
+
+4. The first user to join will become an *administrator*. A notification is delivered to the administrator if any peer wants to join, then the administrator can decide whether **approves it or not**. If the administrator approves, then the user can continue to use, if not, then the client will be closed.
   
-   第一个加入的用户会成为管理员。 如果任何新用户想要加入，则将加入申请发送给管理员，然后管理员可以决定是否同意该加入申请。 如果管理员批准，则用户可以继续使用，否则，该用户的客户端将被关闭。
-5. An online peer list is maintained and displayed for every client.
+   第一个加入的用户会成为*管理员*。 如果任何新用户想要加入，则将加入申请发送给管理员，然后管理员可以决定**是否同意该加入申请**。 如果管理员批准，则用户可以继续使用，否则，该用户的客户端将被关闭。
+
+5. An *online peer list* is maintained and displayed for every client.
    
-   每个客户端维护并显示当前最新的在线用户列表。
-6. Online peers can choose to leave whenever they want. If the peer leaves, the online peer list of every client will be updated.
+   每个客户端维护并显示当前最新的*在线用户列表*。
+
+6. Online peers can choose to **leave** whenever they want. If the peer leaves, the *online peer list* of every client will be updated.
    
-   在线用户可以选择随时退出。 如果在线用户退出，则将更新每个客户端的在线用户列表。
-7. When the administrator quits, the application will be terminated. All the peers will get a message notifying them.
+   在线用户可以选择随时**退出**。 如果在线用户退出，则将更新每个客户端的*在线用户列表*。
+
+7. When the administrator quits, the application will be **terminated**. All the peers will get a message notifying them.
    
-   管理员退出后，该应用程序将被终止。 所有的在线用户都会收到一条消息，通知他们管理员已经退出。
+   管理员退出后，该应用程序将被**终止**。 所有的在线用户都会收到一条消息，通知他们管理员已经退出。
+
 8. The advanced functions include:
    - “New a whiteboard”
    - “Open a previously saved whiteboard”
@@ -48,6 +57,7 @@ This project achieves a shared whiteboard allows multiple users to draw simultan
     - 将当前白板图像保存为文本文件(可以用于在白板中读取并打开)
     - 用户可以选择喜欢的位置保存图片
     - 关闭所有白板 (只有第一个用户即管理员可以操作)
+
 9.  The first user (administrator) is able to kick out a certain peer then the peer will get the notification and the online user list will be updated.
 
     第一个用户（管理员）能够踢出某个在线用户，然后该在线用户将收到通知并被踢出(该用户的客户端将被强制关闭)，并且将更新在线用户列表。
@@ -116,3 +126,13 @@ After successful connection, you should see the picture above:
 ![Client-successful connection](README_IMG/Client-APP.PNG)
 
 **Then just enjoy it!**
+
+## Acknowledgements
+
+This project was porposed by **_University of Melbourne Distributed Systems (COMP90015_2020_SM1)_**. 
+The teaching team is very patient and serious, and has given a lot of help in the completion of the project. 
+
+**Thank you very much!** 
+
+
+If you like this project, please **Star** it :)
