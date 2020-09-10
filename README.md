@@ -28,7 +28,7 @@ This project achieves a **shared whiteboard** allows **multiple users to draw si
 
 4. The first user to join will become an **_administrator_**. A notification is delivered to the administrator if any peer wants to join, then the administrator can decide whether **approves it or not**. If the administrator approves, then the user can continue to use, if not, then the client will be closed.
   
-   第一个加入的用户会成为**_管理员_**。 如果任何新用户想要加入，则将加入申请发送给管理员，然后管理员可以决定**是否同意该加入申请**。 如果管理员批准，则用户可以继续使用，否则，该用户的客户端将被关闭。
+   第一个加入的用户会成为 **_管理员_** 。 如果任何新用户想要加入，则将加入申请发送给管理员，然后管理员可以决定 **是否同意该加入申请** 。 如果管理员批准，则用户可以继续使用，否则，该用户的客户端将被关闭。
 
 5. An **_online peer list_** is maintained and displayed for every client.
    
