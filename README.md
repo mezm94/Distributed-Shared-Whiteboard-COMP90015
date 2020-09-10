@@ -32,17 +32,17 @@ This project achieves a **shared whiteboard** allows **multiple users to draw si
 
 5. An **_online peer list_** is maintained and displayed for every client.
    
-   每个客户端维护并显示当前最新的**_在线用户列表_**。
+   每个客户端维护并显示当前最新的 **_在线用户列表_**。
 
 6. Online peers can choose to **leave** whenever they want. If the peer leaves, the **_online peer list_** of every client will be updated.
    
-   在线用户可以选择随时**退出**。 如果在线用户退出，则将更新每个客户端的**_在线用户列表_**。
+   在线用户可以选择随时**退出**。 如果在线用户退出，则将更新每个客户端的 **_在线用户列表_**。
 
 7. When the administrator quits, the application will be **terminated**. All the peers will get a message notifying them.
    
    管理员退出后，该应用程序将被**终止**。 所有的在线用户都会收到一条消息，通知他们管理员已经退出。
 
-8. The advanced functions include:
+8. The **advanced functions** include:
    - “New a whiteboard”
    - “Open a previously saved whiteboard”
    - “Save as the picture file (.png)”
@@ -50,7 +50,7 @@ This project achieves a **shared whiteboard** allows **multiple users to draw si
    - “Choose the user’s preferred directory to store the whiteboard” 
    - and “Close all whiteboards” (only the first client -- administrator can control it).
 
-    高级功能包括:
+    **高级功能**包括:
     - 新建白板
     - 打开之前保存的白板
     - 将当前白板图像保存为 .png形式
@@ -60,7 +60,7 @@ This project achieves a **shared whiteboard** allows **multiple users to draw si
 
 9.  The first user (administrator) is able to **kick out** a certain peer then the peer will get the notification and the **_online user list_** will be updated.
 
-    第一个用户（管理员）能够**踢出**某个在线用户，然后该在线用户将收到通知并被踢出(该用户的客户端将被强制关闭)，并且将更新**_在线用户列表_**。
+    第一个用户（管理员）能够**踢出**某个在线用户，然后该在线用户将收到通知并被踢出(该用户的客户端将被强制关闭)，并且将更新 **_在线用户列表_**。
 
 ## Screenshots (程序截图)
 
@@ -130,7 +130,8 @@ After successful connection, you should see the picture above:
 ## Acknowledgements
 
 This project was porposed by **_University of Melbourne Distributed Systems (COMP90015_2020_SM1)_**. 
-The teaching team is very patient and serious, and has given a lot of help in the completion of the project. 
+
+The teaching team were very patient and warm-hearted. They have given a lot of help in the completion of the project. 
 
 **Thank you very much!** 
 
